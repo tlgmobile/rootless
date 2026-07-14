@@ -1,0 +1,379 @@
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 668
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<= 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm64.deb
+Size: 34384
+MD5sum: 2a229b59ce0fb9a2027879151b192176
+SHA1: 429988624ce94a47e4f00197a1849438615c9519
+SHA256: c14bdb9819fd6458459f3743a64adb01426a4546a95e0e466f9aecb990d9431f
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:18:02 +0200 by dpkg-repack.)
+Name: AppSync Unified
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/ai.akemi.appsyncunified.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/ai.akemi.appsyncunified.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/ai.akemi.appsyncunified.json
+Icon: https://tlgmobile.github.io/rootless/assets/ai.akemi.appsyncunified/icon.png
+
+Package: alias20.bfdecryptor
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 568
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: debs/alias20.bfdecryptor_0.0.1_iphoneos-arm64.deb
+Size: 67754
+MD5sum: 04b1235e014cc14894568974c01e4269
+SHA1: 7c494580d53d1dddabb1549073644b682c84517f
+SHA256: ae5d4126f98f072817863f037f5a40c791a958e8f76c8789ba4aaf5b7682d62e
+Section: Tweaks
+Description: bfdecrypt for rootless/Ellekit
+Author: BishopFox
+Name: bfdecryptor
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/alias20.bfdecryptor.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/alias20.bfdecryptor.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/alias20.bfdecryptor.json
+Icon: https://tlgmobile.github.io/rootless/assets/alias20.bfdecryptor/icon.png
+
+Package: com.0xkuj.3dappversionspoofer
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 408
+Depends: com.opa334.altlist
+Filename: debs/com.0xkuj.3dappversionspoofer_2.1.1_iphoneos-arm64.deb
+Size: 60776
+MD5sum: 6dd382ab3e81513157cf0a680b2e0984
+SHA1: b7b976fcee682dcc072ff7691a6d6c6b3a1384f3
+SHA256: 3419f7dc8739b14a246745a9e06b4357249a1ff058c01be2f8809cd083665b7a
+Section: Tweaks
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:22:59 +0200 by dpkg-repack.)
+Name: 3DAppVersionSpoofer
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.0xkuj.3dappversionspoofer.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.0xkuj.3dappversionspoofer.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.0xkuj.3dappversionspoofer.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.0xkuj.3dappversionspoofer/icon.png
+
+Package: com.0xkuj.iparanger
+Version: 2.3.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: gawk, unzip, plutil
+Filename: debs/com.0xkuj.iparanger_2.3.0_iphoneos-arm64.deb
+Size: 3680204
+MD5sum: 670b00bc73e43c1adeb50b7b6404713b
+SHA1: 771bd86d0c55aa1048ed5bb597378251795eaca6
+SHA256: 3123c5f03d9425956cc886985e8817d53e0ec42af3f8ca13990ad4255a4a1d52
+Section: Addons
+Description: GUI Based Application for ipatool
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:22:44 +0200 by dpkg-repack.)
+Name: IPA Ranger
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.0xkuj.iparanger.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.0xkuj.iparanger.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.0xkuj.iparanger.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.0xkuj.iparanger/icon.png
+
+Package: com.82flex.trollvnc
+Version: 3.2-272
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 5688
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/com.82flex.trollvnc_3.2-272_iphoneos-arm64.deb
+Size: 1490940
+MD5sum: 0142cf549c4ad1b54c852ec0605b3a6b
+SHA1: b634ca953ddf5e833baf777ff98efa16d393b549
+SHA256: 31a4d2f9a9044408776e1dc0c8e0d66169b7983632614d42dbe5cdc62859a2ab
+Section: Tweaks
+Description: TrollVNC is a VNC server for iOS devices, allowing remote access and control of the device’s screen.
+Author: 82Flex <82flex@gmail.com>
+Name: TrollVNC
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.82flex.trollvnc.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.82flex.trollvnc.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.82flex.trollvnc.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.82flex.trollvnc/icon.png
+
+Package: com.gamegod.igg.rootless
+Version: 0.6.7
+Architecture: iphoneos-arm64
+Maintainer: iGameGod
+Installed-Size: 33816
+Depends: mobilesubstrate (>= 0.9.5000), ldid, fakeroot, odcctools
+Filename: debs/com.gamegod.igg.rootless_0.6.7_iphoneos-arm64.deb
+Size: 6075086
+MD5sum: 781920104bb676944f070aed745597f8
+SHA1: fbc5fc7557eb787ade2093a2d79cc1ca1f7a796b
+SHA256: da6c2aef0b99aba83b6555483e38f4bdd83d82b8c45359b116bf237ffd904296
+Section: Utilities
+Description: Be the god of your games!
+Author: iGameGod
+Name: iGameGod Rootless
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.gamegod.igg.rootless.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.gamegod.igg.rootless.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.gamegod.igg.rootless.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.gamegod.igg.rootless/icon.png
+
+Package: com.ichitaso.regionchanger
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 236
+Depends: firmware (>= 15.0)
+Filename: debs/com.ichitaso.regionchanger_0.0.2_iphoneos-arm64.deb
+Size: 115244
+MD5sum: 59eef366772430afd3637ae0c5e331cf
+SHA1: 23f85daaef1163ba5edc7d45e9e32f42afb98ff8
+SHA256: 14e32a829aae5d4f21435c897117fed5bb5810325bfe655a926872900bc72972
+Section: Utilities
+Homepage: https://ichitaso.com/
+Description: Set the System Region of your device to US. Mute the shutter sound of the camera in silent mode, etc.
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:23:02 +0200 by dpkg-repack.)
+Name: RegionChanger
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.ichitaso.regionchanger.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.ichitaso.regionchanger.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.ichitaso.regionchanger.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.ichitaso.regionchanger/icon.png
+
+Package: com.nablac0d3.sslkillswitch3
+Version: 0.14
+Architecture: iphoneos-arm64
+Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
+Installed-Size: 348
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.nablac0d3.sslkillswitch3_0.14_iphoneos-arm64.deb
+Size: 13440
+MD5sum: 35cd5671f0784efa1692163714f35d70
+SHA1: 6277f9426d7ab067cf835aae0c626b3ef092354f
+SHA256: 45b0db38212af5ab8cfe2ac5ee2bbab1a879804050e39d60de71cce4125bf089
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps. Support with iOS 15/Dopamine jailbreak.
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:22:16 +0200 by dpkg-repack.)
+Name: SSL Kill Switch 3
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.nablac0d3.sslkillswitch3.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.nablac0d3.sslkillswitch3.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.nablac0d3.sslkillswitch3.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.nablac0d3.sslkillswitch3/icon.png
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26884
+MD5sum: 1874e0da98f00417adab6dee7134f77c
+SHA1: 78b40438355e042de1ef082fcd9add718f7e1ec4
+SHA256: 5835a6b0eacd5d99d272b3f74a744b28b1c4c16ada03aade36d0a636bca5e1f0
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Name: AltList
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 560
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm64.deb
+Size: 58952
+MD5sum: f108fb86bbbe13ee3a1e381eea1d0f97
+SHA1: 176a01aeb900f5c0d31bceb6751441059e0cea24
+SHA256: 5d59f00755bf40d21bfa86e75e121b561a23ab1cad9632fbeede8563ef65bfde
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Name: CCSupport
+
+Package: com.opa334.choicy
+Version: 1.5.3-2
+Architecture: iphoneos-arm64
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.opa334.choicy_1.5.3-2_iphoneos-arm64.deb
+Size: 161766
+MD5sum: 198ec8c26c632d83b25d36f4563dfc36
+SHA1: af4d88e9344709fc28d26b3c01e4a89360802e2e
+SHA256: e427d3756261b89f4986fcbe42664168367ab78110cd326c545027a3c7de0df5
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.opa334.choicy.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.opa334.choicy.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.opa334.choicy.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.opa334.choicy/icon.png
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 420
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18154
+MD5sum: f0910991262882d4ffc0b60a5dcc191b
+SHA1: ce71d90d0165ee7325683d4465fb271fc98451c1
+SHA256: 568c98650d8b452d68a1f893ec87f02a4f7082848b1abeec80531c4c9d484065
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Name: libSandy
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: debs/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64.deb
+Size: 8700882
+MD5sum: 3ba64c6c17e4a92c3afc89a95a224532
+SHA1: edaaf4766eeafcbc2186eecdc99a519b8eca2ed5
+SHA256: 5d354834ad5d44fcd2c1e3bdb4d082c25df6f8ba48f837745c2be1aec3f8f981
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.tigisoftware.filza64bit.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.tigisoftware.filza64bit.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.tigisoftware.filza64bit.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.tigisoftware.filza64bit/icon.png
+
+Package: com.yourepo.0xkuj.storeswitcher2rootless
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: firmware (>= 11)
+Filename: debs/com.yourepo.0xkuj.storeswitcher2rootless_1.0.4_iphoneos-arm64.deb
+Size: 14588
+MD5sum: d9e4713579df05344cd1a55b04b68828
+SHA1: d67ef8d23a64a11ffdd4e097fc8993eb051d5f64
+SHA256: fd7294314ace3cb2873871c71777e8617bcf75c32f7a0aa39b77e9fec2044e0c
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:23:04 +0200 by dpkg-repack.)
+Name: StoreSwitcher 2 (rootless)
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/com.yourepo.0xkuj.storeswitcher2rootless.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.yourepo.0xkuj.storeswitcher2rootless.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.yourepo.0xkuj.storeswitcher2rootless.json
+Icon: https://tlgmobile.github.io/rootless/assets/com.yourepo.0xkuj.storeswitcher2rootless/icon.png
+
+Package: re.frida.server
+Version: 17.12.0
+Architecture: iphoneos-arm64
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 52624
+Conflicts: re.frida.server64
+Filename: debs/frida_17.12.0_iphoneos-arm64.deb
+Size: 16058176
+MD5sum: 35dd0911e06727b7106d92dede7fdcf6
+SHA1: 779ac24b512396b2f999eecf7a0ec54bbbe0842b
+SHA256: 472bce373e2864138cfe3e2f4e1191bbb58208895111f60feb189e36ad5007c7
+Section: Development
+Priority: optional
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/re.frida.server.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/re.frida.server.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/re.frida.server.json
+Icon: https://tlgmobile.github.io/rootless/assets/re.frida.server/icon.png
+
+Package: u.blanxd.opensshcc
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 166
+Depends: firmware (>= 11), openssh-server | openssh, mobilesubstrate, com.opa334.ccsupport, u.blanxd.sshswitch
+Breaks: u.blanxd.sshoncc (<< 1.5~b3)
+Replaces: u.blanxd.sshoncc (<< 1.5~b3)
+Filename: debs/u.blanxd.opensshcc_1.1.0_iphoneos-arm64.deb
+Size: 14648
+MD5sum: f46d01e091d590a5b7cb2544cacf9b67
+SHA1: d0ec8638e43b123d0b00f161ffcc74cdb67d55cc
+SHA256: 5e593f55f9f1163638c448acb18c9f01d92b3bb18cdd40cede75f2f0843ad4d6
+Section: Addons (ControlCenter)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshccDp
+Description: OpenSSH toggle in CC
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:23:07 +0200 by dpkg-repack.)
+Tag: purpose::extension
+Name: OpenSSH CC Toggle
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/u.blanxd.opensshcc.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/u.blanxd.opensshcc.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/u.blanxd.opensshcc.json
+Icon: https://tlgmobile.github.io/rootless/assets/u.blanxd.opensshcc/icon.png
+
+Package: u.blanxd.opensshport
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 241
+Depends: cy+cpu.arm64 | firmware (>= 11), openssh-server | openssh, preferenceloader, u.blanxd.sshswitch
+Breaks: u.blanxd.sshoncc (<= 1.4.0)
+Replaces: u.blanxd.sshoncc (<= 1.4.0)
+Filename: debs/u.blanxd.opensshport_1.1.0_iphoneos-arm64.deb
+Size: 34464
+MD5sum: f0dad85a475b815efcf3a6b28d4f0cef
+SHA1: 5fc6c73f556c1c12f65354b8f51ca040fae9e90a
+SHA256: 6f02e6b06a3f6dee5b55993c13525224d7e6d817fe14db499bc43a223af60e13
+Section: Security
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
+Description: OpenSSH menu in Settings
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:23:09 +0200 by dpkg-repack.)
+Tag: purpose::extension
+Name: OpenSSH Settings
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/u.blanxd.opensshport.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/u.blanxd.opensshport.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/u.blanxd.opensshport.json
+Icon: https://tlgmobile.github.io/rootless/assets/u.blanxd.opensshport/icon.png
+
+Package: u.blanxd.sshswitch
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 389
+Depends: cy+cpu.arm64 | firmware (>= 11), openssh-server (>= 6.2) | openssh (>= 6.2)
+Conflicts: u.blanxd.opensshport (<< 1.0~b3)
+Breaks: u.blanxd.sshoncc (<= 1.4.0)
+Replaces: u.blanxd.sshoncc (<= 1.4.0)
+Filename: debs/u.blanxd.sshswitch_1.1.0_iphoneos-arm64.deb
+Size: 203928
+MD5sum: 5a6dabe8ea824d694e8a4dc47724c4e4
+SHA1: 22ba5ff1b345b10268fb9fb4b977d85b0ebd6e88
+SHA256: 8312ac532c264bcef131987ef005d1105df77b80cca5c428a76e544a88546d02
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
+Description: CLI tool for changing OpenSSH settings
+ .
+ (Repackaged on Mon, 15 Jun 2026 16:23:11 +0200 by dpkg-repack.)
+Tag: purpose::console
+Name: SSHswitch
+Depiction: https://tlgmobile.github.io/rootless/depiction/web/u.blanxd.sshswitch.html
+SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/u.blanxd.sshswitch.json
+ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/u.blanxd.sshswitch.json
+Icon: https://tlgmobile.github.io/rootless/assets/u.blanxd.sshswitch/icon.png
