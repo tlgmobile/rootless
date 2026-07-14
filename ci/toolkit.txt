@@ -1,0 +1,16 @@
+# Una linea por tweak. build-meta.sh lo usa como Depends; gen_silica_data como CATALOG.
+re.frida.server
+com.nablac0d3.sslkillswitch3
+com.opa334.choicy
+com.tigisoftware.filza64bit
+alias20.bfdecryptor
+com.gamegod.igg.rootless
+ai.akemi.appsyncunified
+com.0xkuj.iparanger
+com.0xkuj.3dappversionspoofer
+com.ichitaso.regionchanger
+com.yourepo.0xkuj.storeswitcher2rootless
+u.blanxd.opensshcc
+u.blanxd.opensshport
+u.blanxd.sshswitch
+com.82flex.trollvnc
