@@ -1,0 +1,86 @@
+name: build-repo
+# Reconstruye el repo (depictions + indice) en la nube en cada push a debs/ o ci/.
+on:
+  push:
+    paths:
+      - 'debs/**'
+      - 'ci/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-repo
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HOST: tlgmobile.github.io/rootless
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev apt-utils bzip2 gnupg
+          pip install pystache mistune arpy Pillow pydpkg
+
+      - name: Clone Silica (generador de depictions)
+        run: git clone --depth 1 https://github.com/Shugabuga/Silica
+
+      - name: Overlay config TLG
+        run: |
+          cp ci/settings.json Silica/Styles/settings.json
+          cp ci/icon.png       Silica/Styles/icon.png
+          sed -i "s#\"cname\": \"[^\"]*\"#\"cname\": \"$HOST\"#" Silica/Styles/settings.json
+
+      - name: Generar depictions (Silica)
+        env:
+          SILICA_DIR: Silica
+          POOL_DIR: debs
+          TOOLKIT_FILE: ci/toolkit.txt
+        run: |
+          python ci/gen_silica_data.py
+          ( cd Silica && python index.py < /dev/null )
+
+      - name: Montar raiz del repo
+        run: |
+          for item in index.html 404.html web depiction assets CydiaIcon.png sileo-featured.json api; do
+            rm -rf "$item"
+            [ -e "Silica/docs/$item" ] && cp -r "Silica/docs/$item" .
+          done
+          rm -rf Silica   # el clon no se comitea
+
+      - name: Construir indice (Packages/Release)
+        run: |
+          dpkg-scanpackages debs /dev/null > Packages 2>/dev/null
+          python ci/inject_depictions.py Packages depiction/native "$HOST"
+          gzip  -9c Packages > Packages.gz
+          bzip2 -9c Packages > Packages.bz2
+          apt-ftparchive \
+            -o APT::FTPArchive::Release::Origin="TLG Repo" \
+            -o APT::FTPArchive::Release::Label="TLG Repo" \
+            -o APT::FTPArchive::Release::Suite="stable" \
+            -o APT::FTPArchive::Release::Version="1.0" \
+            -o APT::FTPArchive::Release::Codename="ios" \
+            -o APT::FTPArchive::Release::Architectures="iphoneos-arm64" \
+            -o APT::FTPArchive::Release::Components="main" \
+            -o APT::FTPArchive::Release::Description="TLG Repo - herramientas rootless (arm64)" \
+            release . > Release.tmp && mv Release.tmp Release
+          touch .nojekyll
+
+      - name: Comitear el repo construido
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "build repo [skip ci]"
+          git push
