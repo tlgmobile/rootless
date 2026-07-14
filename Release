@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm64
 Codename: ios
 Components: main
-Date: Tue, 14 Jul 2026 13:06:44 +0000
+Date: Tue, 14 Jul 2026 14:16:20 +0000
 Description: TLG Repo - herramientas rootless (arm64)
 Label: TLG Repo
 Origin: TLG Repo
@@ -10,16 +10,20 @@ Version: 1.0
 MD5Sum:
  d83e0b7fba40a5e9eabb5752ebc78362            17686 Packages
  8512503c8207e6ab190bfe155ea52ee5             4837 Packages.bz2
- 3c860bee1aaf59039630529b948b979b             4898 Packages.gz
+ c4f0f7337f15ed658d5c60090735de1b             4898 Packages.gz
+ 05ca2ec2409377f35a70db8e9635554e             1399 Release
 SHA1:
  74ac9104fb8d865b567a55e9d0f2c22ba6a157cd            17686 Packages
  21cb0496460912170db617475f836c10008a8fc3             4837 Packages.bz2
- 7f4573633194413f83a51da4226b5c994fdc422d             4898 Packages.gz
+ 738ad5d952cdb0cd4498a5c921bd777840cdcdc2             4898 Packages.gz
+ 892f424b51ce0d17b7348db136874c03569c8f28             1399 Release
 SHA256:
  286e853846e96f68649349357b1de39650f6df3faa90c91d089aa5460077b9b7            17686 Packages
  d0091e34fb55577683c9e7233e0a02c2fce264fc629ee770f0b522bf36b64888             4837 Packages.bz2
- 34be01dfba5c651389904b0a2c6514e7ada44f3656afc57e325ac23628457b39             4898 Packages.gz
+ c209b505640a1169d3f53767d588762b68854ef16e5e8b1e7bf402cdc7e2e837             4898 Packages.gz
+ 2169dcfd182600b7c259cad9ce68c35993533b4ea9db13b78fc9071a9e9c1f7b             1399 Release
 SHA512:
  e0bc8f2bc39342529347fe3b6f626f2e90727a0b7994c40ee3eea3f54db55cb3851f4017906f0d443da2e3f55a26bb815fa0037f6791f3a4358077824787430d            17686 Packages
  2aaded1e158c78cc468de6cb6f2bf53d4c9a2f111a2da15df712a12d5e2d3c6c0980f80151b5fb6b3eafea436174ca624b8ccd766b92246e93d7cdec1df97bd0             4837 Packages.bz2
- ab0a7dabd342f7db3a18d4535fb76849838304d5f7624a38aa7fcb9e837f15d477d58b6c87313c52b4c2618f5df2bf3aa194c11e3301c8184546d6003b2d35e7             4898 Packages.gz
+ 5e906149b94aeb948ff97f90f125ee2e179d3af92672b567c652165de2c4acc81158fdccb59669d5c1ad20aae53c9b576a8dde69c63acb829d2045bbd9cbb7e8             4898 Packages.gz
+ 416c2c649d9cb22a4e82efbe408c80d9c1ebce6eed39d04e7c284d8a7cc951a44f7c40ba58047aefd4c7ddb49c9b241e25fa8a2f1b7562970c8548ff9e0de26c             1399 Release
