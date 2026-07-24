@@ -1,29 +1,29 @@
 Architectures: iphoneos-arm64
 Codename: ios
 Components: main
-Date: Tue, 14 Jul 2026 14:20:56 +0000
+Date: Fri, 24 Jul 2026 12:19:07 +0000
 Description: TLG Repo - herramientas rootless (arm64)
 Label: TLG Repo
 Origin: TLG Repo
 Suite: stable
 Version: 1.0
 MD5Sum:
- d83e0b7fba40a5e9eabb5752ebc78362            17686 Packages
- 8512503c8207e6ab190bfe155ea52ee5             4837 Packages.bz2
- 0793af25d4928571ccadcdfdee8da93c             4898 Packages.gz
- bc303700f8c1b81ca73f1d3ed05f84ab             1771 Release
+ f627d7c1db7a628ac96c3613277d8e46            18535 Packages
+ a63a891e78f29d7eec5433d2c10758d5             5084 Packages.bz2
+ 630bbfc65ea22dc8c8c26ae51bea4b34             5169 Packages.gz
+ d26688f6d6ea0feaf8f688029d207d4f             1771 Release
 SHA1:
- 74ac9104fb8d865b567a55e9d0f2c22ba6a157cd            17686 Packages
- 21cb0496460912170db617475f836c10008a8fc3             4837 Packages.bz2
- 05dfa4a3e5c841fbb5a5f7f2e672ce91a06406f9             4898 Packages.gz
- a9626c076c49853e86f03a44c13c98a5793ef2c0             1771 Release
+ 858286d15b26c854d90aa044081ac6b2f70cd547            18535 Packages
+ 26ecc9e4941e14251108f4be6e4cd733fe930c5e             5084 Packages.bz2
+ 6d3e815df2814a50eb7f0792db4554217917a65d             5169 Packages.gz
+ 72fd15ea33cb1f8a8044826a7f897818ed212bb0             1771 Release
 SHA256:
- 286e853846e96f68649349357b1de39650f6df3faa90c91d089aa5460077b9b7            17686 Packages
- d0091e34fb55577683c9e7233e0a02c2fce264fc629ee770f0b522bf36b64888             4837 Packages.bz2
- 672afebdb5fe8b7988564a5d339a7c1e6dae610aa20129abba1cddc0deb9bffd             4898 Packages.gz
- 91ab88a057721f865dc5cf6565b24c43f57052c76ca79088ec67903b24010f1a             1771 Release
+ f0f94990e3ca79714c947ceb563e50be9b40ee45956e78931d97af388cc14cea            18535 Packages
+ 2d1ce2c5741144a6adb57253dfc95e3decee4bb7a946d5a29d63d835b85a8e3c             5084 Packages.bz2
+ 5c0a97d7d63f9c78bb5feaf38e3d1229631ffe13b41b83fca2ed2e8a058634b6             5169 Packages.gz
+ 8af4275da578171c968675aa1eae6a9a7f5ecf62815906aecaa1df1f130339ea             1771 Release
 SHA512:
- e0bc8f2bc39342529347fe3b6f626f2e90727a0b7994c40ee3eea3f54db55cb3851f4017906f0d443da2e3f55a26bb815fa0037f6791f3a4358077824787430d            17686 Packages
- 2aaded1e158c78cc468de6cb6f2bf53d4c9a2f111a2da15df712a12d5e2d3c6c0980f80151b5fb6b3eafea436174ca624b8ccd766b92246e93d7cdec1df97bd0             4837 Packages.bz2
- e614016f2965a35960895374e4c573594ffac3f6393f685eeeb09bc0c3540661cca910a29087ce958be39d9e083a3089837f4e3b5449eb18c56023a10481fec4             4898 Packages.gz
- 3a5bf5d37f22cddd108826d8ef01521adef62d00435fad3db9a4857f5821b8f1648f778db387edecaacbb503bdfd8cfaa3cca66d22fec4ed41b6651cc014a221             1771 Release
+ 47461754d131aef6b72bfb8d933dce386f43f2405bcb5fdcbce850b522a07ca3f4d812ad481d4b29cda4041c1915381d1c0ef9311bedc6a9ea19445030f72e50            18535 Packages
+ 4dd38b1673a9949ec039def6d96fe721fa77d4c8883778552b551c97a65ea4779b76a6c47e8e6e2517365918423d26b3f8003ba8f25053bd8a4d15af7c22b958             5084 Packages.bz2
+ ca6079d639b5b70659fd073858a30ec7bd72bb2cdcfe1620fa3e309719ef43400abe023698937343ca9b75acb1c67b966cbae7bd23f79df0ef677047b297a577             5169 Packages.gz
+ d06881f5f0028a7ba080bfe7ba0f33c88197bc5a7efdce3bdfa66ccc51bcbea637087a4c992c58cdf98b47e549836462e68be35ad535558f058583e0de461ad0             1771 Release
