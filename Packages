@@ -223,6 +223,23 @@ SileoDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.opa334
 ModernDepiction: https://tlgmobile.github.io/rootless/depiction/native/com.opa334.choicy.json
 Icon: https://tlgmobile.github.io/rootless/assets/com.opa334.choicy/icon.png
 
+Package: com.opa334.cranelite
+Version: 1.3.17-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 2168
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.crane, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/com.opa334.cranelite_1.3.17-2_iphoneos-arm64.deb
+Size: 335764
+MD5sum: 868ccd2c3f0386fc287dbf817a1620cb
+SHA1: 647bb6b2e181de232bdbd9a8de030e8044aeb507
+SHA256: 41d11f6eb6822653b0e2f31ada17f2788b86baa51ea593290be2c7ad3f4ae007
+Section: Tweaks
+Description: Multiple containers for one application!
+Author: opa334
+Name: Crane Lite
+
 Package: com.opa334.libsandy
 Version: 1.1.6-4
 Architecture: iphoneos-arm64
